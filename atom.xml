@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Koderkbleeki</title>
-  <icon>http://example.com/icon.png</icon>
+  <icon>https://emmoloks.github.io/icon.png</icon>
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://emmoloks.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://emmoloks.github.io/"/>
   <updated>2024-11-06T06:44:36.345Z</updated>
-  <id>http://example.com/</id>
+  <id>https://emmoloks.github.io/</id>
   
   <author>
     <name>Koderkbleeki🚀</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>🤷🏽‍♂️What is Cloud Computing??☁️</title>
-    <link href="http://example.com/2024/11/05/AWS1/"/>
-    <id>http://example.com/2024/11/05/AWS1/</id>
+    <link href="https://emmoloks.github.io/2024/11/05/AWS1/"/>
+    <id>https://emmoloks.github.io/2024/11/05/AWS1/</id>
     <published>2024-11-05T20:52:20.000Z</published>
     <updated>2024-11-06T06:44:36.345Z</updated>
     
