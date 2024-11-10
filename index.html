@@ -33,7 +33,103 @@ var CONFIG = {
   sourcePath: {"js":"js","css":"css","images":"images"},
 };
 
-window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Home</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archives</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Koderkbleeki's Blog</div><div class="header-banner-info__subtitle">Love ❤️ and Enthusiasm 🚀</div></div><div class="header-banner-arrow"><div class="header-banner-arrow__icon"><i class="fas fa-angle-down"></i></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/11/07/AWS2/">IAM WHO IAM🔒</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2024-11-07</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2024-11-08</span></span></div></header><div class="post-body"><div class="post-excerpt"><p><img src="/images/AWS2.png" alt="cover Image"></p>
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Home</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archives</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Koderkbleeki's Blog</div><div class="header-banner-info__subtitle">Love ❤️ and Enthusiasm 🚀</div></div><div class="header-banner-arrow"><div class="header-banner-arrow__icon"><i class="fas fa-angle-down"></i></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/11/07/AWS2/">IAM WHO IAM🔒</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2024-11-07</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2024-11-10</span></span></div></header><div class="post-body"><div class="post-excerpt"><p><img src="/images/AWS2.png" alt="cover Image"></p>
+
+        <h2 id="What-is-IAM-🤔"   >
+          <a href="#What-is-IAM-🤔" class="heading-link"><i class="fas fa-link"></i></a><a href="#What-is-IAM-🤔" class="headerlink" title="What is IAM? 🤔"></a>What is IAM? 🤔</h2>
+      <p>IAM is like a <strong>security guard</strong> for your AWS account:</p>
+<ul>
+<li><strong>Create</strong> users, groups, and roles.</li>
+<li><strong>Define policies</strong> to control what actions they can perform.</li>
+</ul>
+<p>IAM is a service that helps securely control access to AWS resources. You can manage the resources that can be accessed and which actions can be performed.</p>
+<hr>
+
+        <h2 id="Type-of-ways-to-Access-to-AWS-Services-🚀"   >
+          <a href="#Type-of-ways-to-Access-to-AWS-Services-🚀" class="heading-link"><i class="fas fa-link"></i></a><a href="#Type-of-ways-to-Access-to-AWS-Services-🚀" class="headerlink" title="Type of ways to Access to AWS Services 🚀"></a>Type of ways to Access to AWS Services 🚀</h2>
+      <ol>
+<li><p><strong>Programmatic Access</strong> 🔑  </p>
+<ul>
+<li>For developers and apps that use AWS through code.</li>
+<li>Uses <strong>access keys</strong> for security.</li>
+<li>Can access AWS CLI, APIs, and SDKs.</li>
+</ul>
+</li>
+<li><p><strong>Console Access</strong> 💻  </p>
+<ul>
+<li>For people who log in to the AWS website.</li>
+<li>Uses <strong>username and password</strong>.</li>
+<li>You can enable <strong>MFA (Multi-Factor Authentication)</strong> for added security.</li>
+</ul>
+</li>
+</ol>
+<hr>
+
+        <h2 id="Types-of-Security-Credentials-🔐"   >
+          <a href="#Types-of-Security-Credentials-🔐" class="heading-link"><i class="fas fa-link"></i></a><a href="#Types-of-Security-Credentials-🔐" class="headerlink" title="Types of Security Credentials 🔐"></a>Types of Security Credentials 🔐</h2>
+      <p>AWS uses various types of credentials to secure access:</p>
+<ul>
+<li><strong>Email and Password</strong> for the root user (admin).</li>
+<li><strong>Access Keys</strong> for programmatic access.</li>
+<li><strong>IAM Username and Password</strong> for AWS Console.</li>
+<li><strong>MFA</strong> adds an extra layer of security.</li>
+</ul>
+<p>🔒 <strong>Best Practice</strong>: Is to use the root user to create an IAM user first. Then, securely lock away the root user credentials. Use these credentials only when you must perform service management tasks that you cannot accomplish in other ways.</p>
+<hr>
+
+        <h2 id="Types-of-IAM-Policies-📜"   >
+          <a href="#Types-of-IAM-Policies-📜" class="heading-link"><i class="fas fa-link"></i></a><a href="#Types-of-IAM-Policies-📜" class="headerlink" title="Types of IAM Policies 📜"></a>Types of IAM Policies 📜</h2>
+      <p>Policies are like “permission cards” 📇 that specify what actions are allowed or denied. Here’s a breakdown of the main types of IAM policies:</p>
+<ol>
+<li><p><strong>Identity-Based Policies</strong> 👤  </p>
+<ul>
+<li>Attached to users, groups, or roles.</li>
+<li>Types: <strong>Managed Policies</strong> (reusable) and <strong>Inline Policies</strong> (specific to one user).</li>
+<li><strong>Example</strong>: Granting <em>Sally</em> permission to read data in S3.</li>
+</ul>
+</li>
+<li><p><strong>Resource-Based Policies</strong> 📦  </p>
+<ul>
+<li>Attached directly to specific AWS resources (like an S3 bucket).</li>
+<li>Controls who can access the resource.</li>
+<li><strong>Example</strong>: Allowing only trusted accounts to access a specific S3 bucket.</li>
+</ul>
+</li>
+<li><p><strong>Service Control Policies (SCPs)</strong> 🏢  </p>
+<ul>
+<li>Used in AWS Organizations to apply policies across accounts.</li>
+<li>Acts as permission boundaries for groups of accounts.</li>
+<li><strong>Example</strong>: Allowing only specific services for a group of AWS accounts.</li>
+</ul>
+</li>
+<li><p><strong>Access Control Lists (ACLs)</strong> 📄  </p>
+<ul>
+<li>Simpler policies for specific services (like S3).</li>
+<li>Controls which users can access a resource.</li>
+</ul>
+</li>
+</ol>
+<hr>
+
+        <h2 id="Quick-Summary-📝"   >
+          <a href="#Quick-Summary-📝" class="heading-link"><i class="fas fa-link"></i></a><a href="#Quick-Summary-📝" class="headerlink" title="Quick Summary 📝"></a>Quick Summary 📝</h2>
+      <ol>
+<li><strong>IAM</strong> is like a security guard for your AWS resources.</li>
+<li><strong>Policies</strong> are rules that say who can access what.</li>
+<li><strong>Permissions</strong> define the actions users can take.</li>
+<li><strong>Access Types</strong> include programmatic access (CLI, SDK) and console access (AWS Console).</li>
+</ol>
+<p>🎉 <strong>Remember:</strong> Use the principle of least privilege, giving only the access that’s necessary!</p>
+
+        <h2 id="☁️-Fun-Fact"   >
+          <a href="#☁️-Fun-Fact" class="heading-link"><i class="fas fa-link"></i></a><a href="#☁️-Fun-Fact" class="headerlink" title="☁️ Fun Fact"></a>☁️ Fun Fact</h2>
+      <p>Amazon IAM was launched on <strong>June 30, 2011</strong>—five years after AWS started! Before IAM, all users in an AWS account had to share a single set of credentials, which wasn’t ideal for security. 🌥️</p>
+<hr>
+
+        <h2 id="🌐-Learn-More"   >
+          <a href="#🌐-Learn-More" class="heading-link"><i class="fas fa-link"></i></a><a href="#🌐-Learn-More" class="headerlink" title="🌐 Learn More"></a>🌐 Learn More</h2>
+      <p>Check out the <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://docs.aws.amazon.com/IAM/latest/UserGuide/" >AWS IAM Documentation</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>. </p>
+<hr>
 </div></div></article><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/11/05/AWS1/">🤷🏽‍♂️What is Cloud Computing??☁️</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2024-11-05</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2024-11-07</span></span></div></header><div class="post-body"><div class="post-excerpt"><p>Imagine a world where all your photos, files, and software do not need to live on a single device. Instead, they float in a space called the <em>cloud</em>, accessible from any internet-connected device. Sounds futuristic? What if I told you it isthe world we are presently living the world of <strong>cloud computing</strong>!</p>
 
         <h2 id="📌-What-Exactly-is-Cloud-Computing"   >
