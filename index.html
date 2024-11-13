@@ -33,7 +33,127 @@ var CONFIG = {
   sourcePath: {"js":"js","css":"css","images":"images"},
 };
 
-window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Home</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archives</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Koderkbleeki's Blog</div><div class="header-banner-info__subtitle">Love ❤️ and Enthusiasm 🚀</div></div><div class="header-banner-arrow"><div class="header-banner-arrow__icon"><i class="fas fa-angle-down"></i></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/11/13/AWS4/">What is Amazon S3??</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2024-11-13</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2024-11-13</span></span></div></header><div class="post-body"><div class="post-excerpt"><p><img src="/images/AWS4.webp" alt="cover Image"></p>
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner"><nav class="header-nav header-nav--fixed"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">Home</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">Archives</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav><div class="header-banner"><div class="header-banner-info"><div class="header-banner-info__title">Koderkbleeki's Blog</div><div class="header-banner-info__subtitle">Love ❤️ and Enthusiasm 🚀</div></div><div class="header-banner-arrow"><div class="header-banner-arrow__icon"><i class="fas fa-angle-down"></i></div></div></div></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content content-home" id="content"><section class="postlist"><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/11/13/AWS4/">What is Amazon S3??</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2024-11-13</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2024-11-13</span></span></div></header><div class="post-body"><div class="post-excerpt"><p><img src="/images/AWS4.jpg" alt="cover Image"></p>
+
+        <h1 id="Understanding-Amazon-S3☁️"   >
+          <a href="#Understanding-Amazon-S3☁️" class="heading-link"><i class="fas fa-link"></i></a><a href="#Understanding-Amazon-S3☁️" class="headerlink" title="Understanding Amazon S3☁️"></a>Understanding Amazon S3☁️</h1>
+      <p>Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance. Customers of all sizes and industries can use Amazon S3 to store and protect any amount of data for a range of use cases, such as data lakes, websites, mobile applications, backup and restore, archive, enterprise applications, IoT devices, and big data analytics.</p>
+
+        <h2 id="What-is-an-S3-Bucket-🪣"   >
+          <a href="#What-is-an-S3-Bucket-🪣" class="heading-link"><i class="fas fa-link"></i></a><a href="#What-is-an-S3-Bucket-🪣" class="headerlink" title="What is an S3 Bucket? 🪣"></a>What is an S3 Bucket? 🪣</h2>
+      <p>In Amazon S3, a <strong>bucket</strong> is essentially a container where you store your data. Think of it like a folder on your computer, but in the cloud! Each bucket can hold multiple <strong>objects</strong> (files), and the name of each bucket must be unique across all of Amazon S3, ensuring that no two buckets can share the same name.</p>
+
+        <h2 id="S3-Storage-Types"   >
+          <a href="#S3-Storage-Types" class="heading-link"><i class="fas fa-link"></i></a><a href="#S3-Storage-Types" class="headerlink" title="S3 Storage Types"></a><strong>S3 Storage Types</strong></h2>
+      <p>Amazon S3 offers three primary storage classes to meet various needs:</p>
+
+        <h3 id="1-S3-Standard"   >
+          <a href="#1-S3-Standard" class="heading-link"><i class="fas fa-link"></i></a><a href="#1-S3-Standard" class="headerlink" title="1. S3 Standard"></a><strong>1. S3 Standard</strong></h3>
+      <ul>
+<li><strong>Best for</strong>: Data that is frequently accessed.</li>
+<li><strong>Performance</strong>: Provides excellent performance, durability, and availability.</li>
+</ul>
+
+        <h3 id="2-S3-Infrequent-Access-S3-IA"   >
+          <a href="#2-S3-Infrequent-Access-S3-IA" class="heading-link"><i class="fas fa-link"></i></a><a href="#2-S3-Infrequent-Access-S3-IA" class="headerlink" title="2. S3 Infrequent Access (S3-IA)"></a><strong>2. S3 Infrequent Access (S3-IA)</strong></h3>
+      <ul>
+<li><strong>Best for</strong>: Data you don’t need to access often, but still need to be readily available.</li>
+<li><strong>Use Cases</strong>: Ideal for backups and disaster recovery.</li>
+</ul>
+
+        <h3 id="3-Glacier"   >
+          <a href="#3-Glacier" class="heading-link"><i class="fas fa-link"></i></a><a href="#3-Glacier" class="headerlink" title="3. Glacier"></a><strong>3. Glacier</strong></h3>
+      <ul>
+<li><strong>Best for</strong>: Long-term data archiving at a low cost.</li>
+<li><strong>Access Time</strong>: Retrieval is slower compared to Standard and S3-IA, but it is perfect for archival data that doesn’t need to be accessed frequently.</li>
+</ul>
+
+        <h3 id="Lifecycle-Policies"   >
+          <a href="#Lifecycle-Policies" class="heading-link"><i class="fas fa-link"></i></a><a href="#Lifecycle-Policies" class="headerlink" title="Lifecycle Policies"></a><strong>Lifecycle Policies</strong></h3>
+      <ul>
+<li>You can set lifecycle policies in S3 to automatically move data between storage classes like S3-IA or Glacier after a specific period.</li>
+</ul>
+
+        <h2 id="Why-Use-S3"   >
+          <a href="#Why-Use-S3" class="heading-link"><i class="fas fa-link"></i></a><a href="#Why-Use-S3" class="headerlink" title="Why Use S3?"></a><strong>Why Use S3?</strong></h2>
+      <p>Amazon S3 is used by companies such as <strong>Netflix</strong>, <strong>Dropbox</strong>, and <strong>Reddit</strong> due to its affordability, scalability, and security features. Let us dive into some of its key benefits.</p>
+
+        <h3 id="1-It-is-Affordable"   >
+          <a href="#1-It-is-Affordable" class="heading-link"><i class="fas fa-link"></i></a><a href="#1-It-is-Affordable" class="headerlink" title="1. It is Affordable"></a><strong>1. It is Affordable</strong></h3>
+      <ul>
+<li><strong>Pay for What You Use</strong>: No upfront costs, and you only pay for the storage and bandwidth you actually use.</li>
+<li><strong>Free Tier</strong>: Includes 5GB of storage, 20,000 GET Requests, 2,000 PUT Requests, and 15GB of Data Transfer for the first year.</li>
+</ul>
+
+        <h3 id="2-It-is-Scalable"   >
+          <a href="#2-It-is-Scalable" class="heading-link"><i class="fas fa-link"></i></a><a href="#2-It-is-Scalable" class="headerlink" title="2. It is Scalable"></a><strong>2. It is Scalable</strong></h3>
+      <ul>
+<li><strong>Automatic Scaling</strong>: S3 scales seamlessly with your application. Whether you’re handling a small personal project or a huge surge in user growth, S3 will automatically accommodate your storage needs without requiring manual intervention.</li>
+</ul>
+
+        <h3 id="3-It-is-Secure"   >
+          <a href="#3-It-is-Secure" class="heading-link"><i class="fas fa-link"></i></a><a href="#3-It-is-Secure" class="headerlink" title="3. It is Secure"></a><strong>3. It is Secure</strong></h3>
+      <ul>
+<li><strong>Out-of-the-Box Security</strong>: S3 ensures that your data is secure by default. Data is encrypted and access is controlled via permissions and policies.</li>
+<li><strong>Compliance</strong>: S3 maintains compliance with standards like <strong>PCI-DSS</strong>, <strong>HIPAA</strong>, <strong>FedRAMP</strong>, and more, helping you meet industry-specific regulatory requirements.</li>
+</ul>
+
+        <h3 id="4-It-Has-Versioning"   >
+          <a href="#4-It-Has-Versioning" class="heading-link"><i class="fas fa-link"></i></a><a href="#4-It-Has-Versioning" class="headerlink" title="4. It Has Versioning"></a><strong>4. It Has Versioning</strong></h3>
+      <ul>
+<li><strong>Track Changes</strong>: Versioning allows you to store multiple versions of a file, which is helpful in managing sensitive data or tracking document changes over time.</li>
+<li><strong>Accidental Deletion Protection</strong>: You can retrieve accidentally deleted files when versioning is enabled.</li>
+</ul>
+
+        <h3 id="5-It-is-Durable"   >
+          <a href="#5-It-is-Durable" class="heading-link"><i class="fas fa-link"></i></a><a href="#5-It-is-Durable" class="headerlink" title="5. It is Durable"></a><strong>5. It is Durable</strong></h3>
+      <ul>
+<li><strong>Data Durability</strong>: S3 ensures 99.999999999% durability (the famous “11 9s”) by redundantly storing your data across multiple facilities.</li>
+<li><strong>Availability</strong>: Offers 99.99% availability of objects over a given year, meaning your data is nearly always accessible.</li>
+</ul>
+
+        <h2 id="Permissions-in-Amazon-S3-🔐"   >
+          <a href="#Permissions-in-Amazon-S3-🔐" class="heading-link"><i class="fas fa-link"></i></a><a href="#Permissions-in-Amazon-S3-🔐" class="headerlink" title="Permissions in Amazon S3 🔐"></a>Permissions in Amazon S3 🔐</h2>
+      <p>Amazon S3 gives you full control over who can access your buckets and objects, making it easy to set permissions for different users.</p>
+
+        <h3 id="Bucket-Permissions"   >
+          <a href="#Bucket-Permissions" class="heading-link"><i class="fas fa-link"></i></a><a href="#Bucket-Permissions" class="headerlink" title="Bucket Permissions:"></a>Bucket Permissions:</h3>
+      <p>You can assign different <strong>permissions</strong> to users, also known as <strong>grantees</strong>, for each bucket. These permissions include:</p>
+<ul>
+<li><strong>List</strong>: Allows the user to list the objects in the bucket.</li>
+<li><strong>Upload&#x2F;Delete</strong>: Lets the user upload or delete objects in the bucket.</li>
+<li><strong>View Permissions</strong>: Grants the user the ability to view the bucket’s permissions.</li>
+<li><strong>Edit Permissions</strong>: Allows users to modify the bucket’s permissions.</li>
+</ul>
+
+        <h3 id="Object-Permissions"   >
+          <a href="#Object-Permissions" class="heading-link"><i class="fas fa-link"></i></a><a href="#Object-Permissions" class="headerlink" title="Object Permissions:"></a>Object Permissions:</h3>
+      <p>Each object stored in S3 can also have its own set of permissions. You can assign the following permissions to an object:</p>
+<ul>
+<li><strong>Download&#x2F;Open</strong>: Lets the user download or open the object.</li>
+<li><strong>View Permissions</strong>: Grants the user the ability to view the permissions of the object.</li>
+<li><strong>Edit Permissions</strong>: Allows users to edit the permissions of the object.</li>
+</ul>
+
+        <h2 id="S3-Use-Cases-🌐"   >
+          <a href="#S3-Use-Cases-🌐" class="heading-link"><i class="fas fa-link"></i></a><a href="#S3-Use-Cases-🌐" class="headerlink" title="S3 Use Cases 🌐"></a>S3 Use Cases 🌐</h2>
+      <ul>
+<li><strong>Web Hosting</strong>  You can use S3 as a static website hosting platform. The difference between static and dynamic websites is that dynamic websites receive and process user input. Static websites are used only for displaying information.</li>
+<li><strong>Analytics</strong> You can run queries on your S3 data without moving your data to an analytics platform. This makes S3 a great use case for building powerful analytics applications.</li>
+<li><strong>File Sharing</strong> Amazon S3 can be also used as a cheap file sharing solution, the famous file sharing service Dropbox was first built on top of S3.</li>
+</ul>
+
+        <h2 id="Conclusion-📝"   >
+          <a href="#Conclusion-📝" class="heading-link"><i class="fas fa-link"></i></a><a href="#Conclusion-📝" class="headerlink" title="Conclusion 📝"></a>Conclusion 📝</h2>
+      <p>Amazon S3 is a great tool to work with for your web or mobile application storage requirements. With on-demand pricing and scalability at its core, S3 has been the favored cloud storage solution for small and large businesses alike. Companies from Netflix to Pinterest trust S3 with their data, thanks to the 99.999999999% data durability promise from Amazon. You can also use Amazon S3 as a personal storage solution or host your next project via static site hosting. In a nutshell, S3 is a great multi-purpose storage solution catering to a wide range of use cases.</p>
+
+        <h2 id="☁️-Fun-Fact"   >
+          <a href="#☁️-Fun-Fact" class="heading-link"><i class="fas fa-link"></i></a><a href="#☁️-Fun-Fact" class="headerlink" title="☁️ Fun Fact"></a>☁️ Fun Fact</h2>
+      <p>Amazon Simple Storage Service was first launched in US on march 14 2006 then later in Europe in November 2007. Since then the service has grown and now holds a remarkable 82 billion object.</p>
+
+        <h2 id="📚-Learn-More"   >
+          <a href="#📚-Learn-More" class="heading-link"><i class="fas fa-link"></i></a><a href="#📚-Learn-More" class="headerlink" title="📚 Learn More"></a>📚 Learn More</h2>
+      <p>S3 has many cool features so you can Check out the <span class="exturl"><a class="exturl__link"   target="_blank" rel="noopener" href="https://aws.amazon.com/s3/" >official Amazon S3 documentation</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span> to explore how you can get started with S3 and unlock its full potential!</p>
 </div></div></article><article class="postlist-item post"><header class="post-header"><h1 class="post-title"><a class="post-title__link" href="/2024/11/11/AWS3/">☁️ Why EC2 and Not EC²??</a></h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">Created</span><span class="post-meta-item__value">2024-11-11</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">Updated</span><span class="post-meta-item__value">2024-11-11</span></span></div></header><div class="post-body"><div class="post-excerpt">
         <h1 id="☁️-Your-Local-Computer-in-the-Cloud-☁️"   >
           <a href="#☁️-Your-Local-Computer-in-the-Cloud-☁️" class="heading-link"><i class="fas fa-link"></i></a><a href="#☁️-Your-Local-Computer-in-the-Cloud-☁️" class="headerlink" title="☁️ Your Local Computer in the Cloud ☁️"></a>☁️ Your Local Computer in the Cloud ☁️</h1>
