@@ -6,7 +6,7 @@
   <link href="https://emmoloks.github.io/atom.xml" rel="self"/>
   
   <link href="https://emmoloks.github.io/"/>
-  <updated>2024-11-13T04:20:44.054Z</updated>
+  <updated>2024-11-14T15:58:50.702Z</updated>
   <id>https://emmoloks.github.io/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>AWS5</title>
+    <link href="https://emmoloks.github.io/2024/11/14/AWS5/"/>
+    <id>https://emmoloks.github.io/2024/11/14/AWS5/</id>
+    <published>2024-11-14T14:49:45.000Z</published>
+    <updated>2024-11-14T15:58:50.702Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/AWS4.jpg&quot; alt=&quot;cover Image&quot;&gt;&lt;/p&gt;
+
+        &lt;h1 id=&quot;🛠️-Building-Your-own-Private-Network-in-the-Cloud☁️&quot;   &gt;
+         </summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>What is Amazon S3??</title>
     <link href="https://emmoloks.github.io/2024/11/13/AWS4/"/>
     <id>https://emmoloks.github.io/2024/11/13/AWS4/</id>
     <published>2024-11-13T02:36:19.000Z</published>
-    <updated>2024-11-13T04:20:44.054Z</updated>
+    <updated>2024-11-14T14:52:50.832Z</updated>
     
     
       
