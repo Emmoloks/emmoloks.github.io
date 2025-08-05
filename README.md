@@ -35,7 +35,7 @@ Welcome to my personal developer portfolio — built with [Hexo](https://hexo.io
 ├── package.json        # Project dependencies
 └── scaffolds/          # Content templates
 
-
+```
 
 ## ⚙️ How to Run Locally
 ```
