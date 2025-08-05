@@ -1,7 +1,6 @@
 # Personal Portfolio 🌐
 
-Welcome to my personal developer portfolio — built with [Hexo](https://hexo.io), customized and deployed using GitHub Pages. This site showcases my work, skills, and journey in tech as a software engineer, cybersecurity enthusiast, and cloud computing student.
-
+Welcome to my personal developer portfolio — built with [Hexo](https://hexo.io), customized and deployed using GitHub Pages.
 🔗 **Live Site**: [https://emmoloks.github.io](https://emmoloks.github.io)
 
 ---
