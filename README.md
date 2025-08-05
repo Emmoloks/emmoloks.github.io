@@ -38,9 +38,9 @@ Welcome to my personal developer portfolio — built with [Hexo](https://hexo.io
 
 
 ## ⚙️ How to Run Locally
-
+```
 npm install -g hexo-cli
-
+```
 ## Clone the Repository
 
 git clone https://github.com/Emmoloks/emmoloks.github.io.git
