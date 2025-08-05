@@ -1,4 +1,4 @@
-# Emmoloks Personal Portfolio 🌐
+# Personal Portfolio 🌐
 
 Welcome to my personal developer portfolio — built with [Hexo](https://hexo.io), customized and deployed using GitHub Pages. This site showcases my work, skills, and journey in tech as a software engineer, cybersecurity enthusiast, and cloud computing student.
 
@@ -42,17 +42,19 @@ Welcome to my personal developer portfolio — built with [Hexo](https://hexo.io
 npm install -g hexo-cli
 ```
 ## Clone the Repository
-
+```
 git clone https://github.com/Emmoloks/emmoloks.github.io.git
 cd emmoloks.github.io
-
+```
 
 ## Install Dependencies
+```
 npm install
-
+```
 ## Run the Site Locally
+```
 hexo serve
-
+```
 Then open http://localhost:4000 in your browser.
 
 
